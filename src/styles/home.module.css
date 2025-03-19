@@ -1,0 +1,39 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+
+
+:root {
+  --background-uno:#292F36;
+  --background-Dos:#1A1E23;
+  --brand-Uno:#12F7D6;
+  --brand-Dos:#98FAEC;
+  --grey:#43454D;
+  --color-white:#ffffFF;
+  --font-primary:"Ubuntu", sans-serif;
+  --font-secundary:"IBM Plex Mono", monospace;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+

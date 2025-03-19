@@ -1,0 +1,114 @@
+.skills{
+  position: relative;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  min-width:100vw;
+  min-height: 100vh;
+  background: url('../../../public/assets/skill/computer-1836330.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+
+.colorSkill::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--background-uno);
+  opacity: 0.8;
+  z-index: -1; /* Se pone detrás del contenido */
+}
+
+
+
+.colorSkill__head{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  padding: 3rem 0rem;
+  height: auto;
+}
+
+.colorSkill__head__imageContainer{
+ 
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 21rem;
+  top:5rem;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.colorSkill__services{ 
+  margin-left: 25vw;
+  margin-right:25vw;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: var(--font-secundary);
+
+}
+.colorSkill__services h3 {
+  font-size: 1.5rem;
+}
+.colorSkill__services_web{
+  background: var(--brand-Dos);
+  color: var(--background-uno);
+  padding: 1rem 0rem;
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  border-radius: 0.5rem;
+  border-left: solid 0.5rem #28A9E0;
+
+}
+.colorSkill__skill{
+
+  width: 70vw;
+  margin-left: 15vw;
+  padding: 4rem 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.colorSkill__skill > div  {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 1.5rem;
+}
+
+.colorSkill__skill__images {
+  width: 7rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.colorSkill__skill__images img {
+  color: var(--color-white);
+  width: 3.125rem;
+  display: block;
+  margin: auto;
+  
+}
+.colorSkill__skill  strong{
+  font-weight:500;
+  font-size: 1.5rem;
+  font-family: var(--font-secundary);
+}
+  
+

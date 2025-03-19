@@ -1,0 +1,82 @@
+.header{
+
+  background-color: var(--background-uno);
+  max-width: 85vw;
+  min-width: 85vw;
+  max-height: 13vh;
+  min-height: 13vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-white);
+  border-bottom: #43454D 1px solid;
+  
+}
+.header__branding{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: flex-start;
+}
+.header__branding p:first-child {
+  color: var(--brand-Uno);
+  margin-right: 8px;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 20px;
+
+}
+.header__branding p{
+  font-family: var(--font-primary);
+  font-size: 20px;
+  font-weight: 500;
+}
+.header__menu__links{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 17px;
+  transition: 0.3s;
+}
+.header__menu__links a{
+  transition: 0.3s;
+}
+.header__menu__links a:hover{
+  color: rgb(184, 184, 184) ;
+  transition: 0.3s;
+}
+.header__menu__links__div__search{
+  background-color: var(--color-white);
+  margin: 0px 10px;
+  width: 160px;
+  height:25px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+}
+
+.search__ico{
+  position: absolute;
+  left: 140px; /* Ajusta la posición del icono */
+  top: 55%; /* Centra verticalmente el icono */
+  transform: translateY(-50%); /* Centra verticalmente el icono */
+  color: var(--background-uno);
+  font-size: 16px;
+}
+
+.links__redes{
+  font-family: var(--font-secundary);
+  font-size: 11px;
+  transition: 0.3s;
+}
+.links__redes:hover{
+  color: rgb(184, 184, 184) ;
+  transition: 0.3s;
+}

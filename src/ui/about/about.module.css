@@ -1,0 +1,82 @@
+.about{
+  background-image: url('../../../public/assets/about/Aboutme.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-white);
+  font-family: var(--font-primary);
+  padding: 3rem 0rem;
+
+}
+
+.about__description{
+ 
+  box-sizing: border-box;
+  margin-top: 3rem;
+  width: 85vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  gap: 3rem;
+}
+.about__description article{
+
+  width: 65%;
+  font-size: 0.8rem;
+  align-content: end;
+}
+.about__description__subtitle {
+  display: inline-block;
+  margin-bottom: 2.5rem;
+  border: solid var(--brand-Uno) 3px;
+  background: var(--background-uno);
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 0.3rem 1.4rem;
+  font-size: 1.8rem;
+}
+.about__description__textos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.about__description__textos__hello{
+  
+  font-size: 25px;
+}
+.about__description__textos strong{
+  color: var(--brand-Uno);
+}
+.about__description__textos strong:first-child{
+  margin-bottom: 1rem ;
+}
+.about__description__textos strong:last-child{
+  margin-top: 1rem;
+}
+.about__description article > div {
+  background: var(--background-uno);
+  border-radius: 36px;
+  padding: 1rem 1.5rem;
+  font-family: var(--font-secundary);
+  font-size: 0.8rem;
+  font-weight:300;
+  word-spacing: 2px;
+  line-height: 1.2;
+  text-align: justify;
+}
+.about__description__image{
+  display: inline-block;
+  margin-bottom: 0rem;
+  width: auto;
+}
+.about__description__image img {
+  width: 320px;
+  height: auto;
+}
