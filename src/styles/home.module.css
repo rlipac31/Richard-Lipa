@@ -16,22 +16,7 @@
 
 
 
-:root {
-  --background-uno:#292F36;
-  --background-Dos:#1A1E23;
-  --brand-Uno:#12F7D6;
-  --brand-Dos:#98FAEC;
-  --grey:#43454D;
-  --color-white:#ffffFF;
-  --font-primary:"Ubuntu", sans-serif;
-  --font-secundary:"IBM Plex Mono", monospace;
-}
 
-body {
-  margin: 0;
-  overflow-x: hidden;
-  position: relative;
-}
 
 /**
  * Render the `main` element consistently in IE.

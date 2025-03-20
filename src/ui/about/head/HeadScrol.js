@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './headScrol.module.css'
-const HeadScrol = () => {
+const HeadScrol = ({message, title}) => {
   return (
     <div className={styles.about__head}>
         <div className={styles.about__head__vectores}>
@@ -14,13 +14,13 @@ const HeadScrol = () => {
             </div>
       
         </div>
-      <h2>Title</h2>
+      <h2>{title}</h2>
       <div className={styles.about__head__vector}>
           <div></div>
           <div></div>
           <div></div>
       </div>
-      <p>I had the pleasure of working with these awesome Projects</p>
+      <p>{message}</p>
     </div>
       )
 }

@@ -32,18 +32,21 @@ const Header = () => {
                src={instagram}
                width={20}
                height={20}
+               alt={'icon-instagram'}
               />
               <Link className={styles.links__redes} href={'/#'}>Instagram</Link>
               <Image
                src={Discord}
                width={20}
                height={20}
+               alt={'icon-discord'}
               />
               <Link className={styles.links__redes} href={'/#'}>Discord</Link>
               <Image
                src={gitHub}
                width={20}
                height={20}
+               alt={'icon-github'}
               />
               <Link className={styles.links__redes} href={'/#'}>GitHub</Link>
             </ul>

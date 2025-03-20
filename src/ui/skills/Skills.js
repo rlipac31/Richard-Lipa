@@ -17,7 +17,10 @@ const Skills = () => {
     <div className={styles.skills}>
       <div className={styles.colorSkill}>
         <div className={styles.colorSkill__head}>
-          <HeadScrol />
+          <HeadScrol
+            title={'Skill'}
+            message={'I am striving to never stop learning and improving'}
+          />
         <div className={styles.colorSkill__head__imageContainer}>
               <Image
                 src={llavesHtml}

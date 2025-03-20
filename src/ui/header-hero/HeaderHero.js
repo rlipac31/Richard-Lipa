@@ -22,6 +22,9 @@ import monitor from '../../../public/assets/navegationBard/icon-monitor.png'
 import user from '../../../public/assets/navegationBard/icon-user.png'
 import shape from '../../../public/assets/navegationBard/Shape.png'
 
+const inicio_p = "<p>";
+const fin_p ="</p>";
+
 
 const HeaderHero = () => {
   return (
@@ -168,18 +171,18 @@ const HeaderHero = () => {
                 <div className={styles.description__saludo}>
                   <strong>{'<h1>'}</strong>
                   <p>Hey</p>
-                  <p>I'm Richard Lipa</p>
+                  <p>I m Richard Lipa</p>
                   <p>Full-Stack Developer
-                    <strong>{'</h1>'}</strong>
+                    <strong>{"</h1>"}</strong>
                   </p>
 
                 </div>
                 <div className={styles.description__presentacion}>
-                  <strong>{'<p>'}</strong>
+                  <strong>{inicio_p}</strong>
                   <p>I help business grow by crafting amazing web experiences. If you’re looking for a developer that likes to get stuff done,</p>
-                  <strong>{'</p>'}</strong>
+                  <strong>{fin_p}</strong>
                   <div className={styles.description__talk}>
-                    <p>Let's talk</p>
+                    <p>Let s talk</p>
                     <div className={styles.description__talk__circle}>
                       <Image
                         src={email}
