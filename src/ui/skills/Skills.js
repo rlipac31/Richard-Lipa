@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 //mis imports
 import styles from './skills.module.css'
-import HeadScrol from '../about/head/HeadScrol'
+import HeadScrol from '../head/HeadScrol'
 import llavesHtml from '../../../public/assets/skill/llaveHtml.png'
 import iconMonitor from '../../../public/assets/skill/icon-monitor.png'
 import iconCel from '../../../public/assets/skill/Icon-cel.png'

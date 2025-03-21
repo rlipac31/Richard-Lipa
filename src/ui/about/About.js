@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from './about.module.css'
 //images local
 import laptop from '../../../public/assets/about/laptop.png'
-import HeadScrol from './head/HeadScrol'
+import HeadScrol from '../head/HeadScrol'
 const inicio_p = "<p>";
 const fin_p ="</p>";
 
